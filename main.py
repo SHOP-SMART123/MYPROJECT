@@ -41,6 +41,7 @@ def add_user(user: User):
         "email": user.email,
         "hashed_password": hashed_password
     }
+
 @app.get("/get_users")
 def get_users():
     try:
